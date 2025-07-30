@@ -1,0 +1,27 @@
+# Byte‑compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Dotenv
+.env
+
+# Node modules and build output
+node_modules/
+frontend/build/
+
+# Test and coverage output
+coverage/
+.pytest_cache/
+
+# Misc
+*.log
+*.swp
