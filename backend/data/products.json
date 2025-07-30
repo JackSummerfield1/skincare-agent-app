@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Hydrating Facial Cream",
+    "concern_tags": ["dryness", "dullness"],
+    "image": "https://example.com/images/product1.jpg",
+    "url": "https://example.com/products/hydrating-facial-cream"
+  },
+  {
+    "id": 2,
+    "name": "Acne Control Serum",
+    "concern_tags": ["acne", "oily", "redness"],
+    "image": "https://example.com/images/product2.jpg",
+    "url": "https://example.com/products/acne-control-serum"
+  },
+  {
+    "id": 3,
+    "name": "Soothing Aloe Mask",
+    "concern_tags": ["redness", "irritation"],
+    "image": "https://example.com/images/product3.jpg",
+    "url": "https://example.com/products/soothing-aloe-mask"
+  },
+  {
+    "id": 4,
+    "name": "Oil-Free Moisturizer",
+    "concern_tags": ["oily", "acne"],
+    "image": "https://example.com/images/product4.jpg",
+    "url": "https://example.com/products/oil-free-moisturizer"
+  },
+  {
+    "id": 5,
+    "name": "Brightening Vitamin C Serum",
+    "concern_tags": ["dullness", "pigmentation"],
+    "image": "https://example.com/images/product5.jpg",
+    "url": "https://example.com/products/brightening-vitamin-c-serum"
+  },
+  {
+    "id": 6,
+    "name": "Calming Green Tea Toner",
+    "concern_tags": ["redness", "sensitivity"],
+    "image": "https://example.com/images/product6.jpg",
+    "url": "https://example.com/products/calming-green-tea-toner"
+  }
+]
