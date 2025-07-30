@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skincare Agent App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+        color: #333;
+      }
+      .container {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+      h1 {
+        margin-top: 0;
+      }
+      form {
+        margin-bottom: 1.5rem;
+      }
+      input[type="file"] {
+        display: block;
+        margin-bottom: 1rem;
+      }
+      button {
+        background-color: #007acc;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+      }
+      .product-card {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+      }
+      .product-card img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 4px;
+        margin-right: 1rem;
+      }
+      .product-card a {
+        text-decoration: none;
+        color: #007acc;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- React core libraries copied from the local backend, avoid external network -->
+    <script src="/js/react.production.min.js"></script>
+    <script src="/js/react-dom.production.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
